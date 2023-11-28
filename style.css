@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #question {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+
+  #stats {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+
+  #barsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #moneyBar, #popularityBar {
+    width: 300px;
+    height: 20px;
+    margin-top: 10px;
+    border: 1px solid #000;
+    position: relative;
+  }
+
+  #moneyBarFill, #popularityBarFill {
+    height: 100%;
+    background-color: green;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  button {
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }

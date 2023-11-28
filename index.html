@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  <title>Decision Game</title>
+</head>
+<body>
+
+<div id="question"></div>
+<div id="stats">
+  Dinheiro: <span id="money">100</span> | Popularidade: <span id="popularity">100</span>
+</div>
+<div id="barsContainer">
+  <div id="moneyBar">
+    <div id="moneyBarFill"></div>
+  </div>
+  <div id="popularityBar">
+    <div id="popularityBarFill"></div>
+  </div>
+</div>
+<button id="acceptButton" onclick="makeDecision(true)">Aceitar</button>
+<button id="rejectButton" onclick="makeDecision(false)">Rejeitar</button>
+
+</body>
+</html>
